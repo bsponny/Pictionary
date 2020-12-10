@@ -1,6 +1,6 @@
 import random
 
-file = open("Pictures")
+file = open("ChristmasPictures")
 wordList = []
 
 for words in file:
