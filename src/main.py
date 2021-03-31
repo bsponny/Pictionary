@@ -48,5 +48,6 @@ while go:
             go = False
 
 print("Thanks for playing!")
+print("Hope you had fun!")
 
 file.close()
