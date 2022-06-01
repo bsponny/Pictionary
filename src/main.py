@@ -1,6 +1,8 @@
 import os
 import random
 
+print("IMPORTANT! \n Make sure you're running this file from outside of the 'src' directory.\n\n")
+
 dirs = os.listdir("docs/")
 
 print("Welcome to Pictionary!")
@@ -19,6 +21,7 @@ go = True
 
 for words in file:
     wordList.append(words)
+file.close()
 
 totalLength = len(wordList)
 print("There are " + str(totalLength) + " total words in this file.")
@@ -49,4 +52,3 @@ while go:
 
 print("Thanks for playing!")
 
-file.close()
